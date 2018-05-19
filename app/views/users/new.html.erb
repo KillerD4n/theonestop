@@ -1,0 +1,14 @@
+<div class="create_banner"></div>
+<div class="container">
+  <div class="form">
+    <%= simple_form_for @user do |f| %>
+      <%= f.input :name %>
+      <%= f.input :username %>
+      <%= f.input :password %>
+      <%= f.input :age %>
+      <%= f.input :email %>
+
+      <%= f.button :submit %>
+    <% end %>
+  </div>
+</div>
